@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary-bg: #074E37;
+    --color-secondary-bg: #86BC42;
+    --color-text-primary: #222222;
+    --color-text-secondary: #6BAD0D;
+    --color-text-white: #FFFFFF;
+    --color-text-one: #767676;
+    --font-jost: var(--font-jost);
+}
+
+
+
+@layer components{
+  .container{
+    @apply mx-auto !max-w-[1410px];
+  }
+
+
+
+}
+
+/* @layer components{
+      .list{
+    @apply font-medium text-white text-md font-jost;
+  }
+  
+} */
+

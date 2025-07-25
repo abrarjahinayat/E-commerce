@@ -5,6 +5,7 @@ import Support from '../components/Support'
 import Products from '../components/Products'
 import Category from '../components/Category'
 import Topselling from '../components/Topselling'
+import Discount from '../components/Discount'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
         <Products/>
         <Category/>
         <Topselling/>
+        <Discount/>
     </div>
   )
 }

@@ -78,7 +78,7 @@ const Blog = () => {
                 APRIL 05, 2020
               </p>
             </div>
-            <p className="w-[212px] font-jost font-normal pb-4 mt-2 text-xl text-text-primary">Woman with good shoes is never be ugly place</p>
+            <p className="w-[212px] font-jost font-normal pb-4   mt-2 text-xl text-text-primary">Woman with good shoes is never be ugly place</p>
 
             </div>
           </div> 

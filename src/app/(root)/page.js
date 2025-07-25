@@ -7,6 +7,7 @@ import Category from '../components/Category'
 import Topselling from '../components/Topselling'
 import Discount from '../components/Discount'
 import Blog from '../components/Blog'
+import Contact from '../components/Contact'
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
         <Topselling/>
         <Discount/>
         <Blog/>
+        <Contact/>
     </div>
   )
 }

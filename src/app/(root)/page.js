@@ -4,6 +4,7 @@ import Banner from '../components/Banner'
 import Support from '../components/Support'
 import Products from '../components/Products'
 import Category from '../components/Category'
+import Topselling from '../components/Topselling'
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
         <Support/>
         <Products/>
         <Category/>
+        <Topselling/>
     </div>
   )
 }

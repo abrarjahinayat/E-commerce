@@ -3,6 +3,7 @@ import Secondnavbar from '../components/Secondnavbar'
 import Banner from '../components/Banner'
 import Support from '../components/Support'
 import Products from '../components/Products'
+import Category from '../components/Category'
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
         <Banner/>
         <Support/>
         <Products/>
+        <Category/>
     </div>
   )
 }
